@@ -74,3 +74,4 @@ Nest is [MIT licensed](LICENSE).
 
 ## Dependencies
 - npm i class-validator class-transformer
+- npm i @nestjs/mapped-types
