@@ -75,3 +75,9 @@ Nest is [MIT licensed](LICENSE).
 ## Dependencies
 - npm i class-validator class-transformer
 - npm i @nestjs/mapped-types
+- npm i -D prisma
+
+## Configurando Prisma
+- npx prisma init // iniciar o prisma
+- npx prisma db pull // buscar campos do banco que foi informado e adiciona no schema.prisma
+- npx prisma generate // cria o arquivo do schema.prisma. Toda vez que modificar o schema.prisma, rodar o generate
