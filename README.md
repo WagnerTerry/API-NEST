@@ -76,6 +76,7 @@ Nest is [MIT licensed](LICENSE).
 - npm i class-validator class-transformer
 - npm i @nestjs/mapped-types
 - npm i -D prisma
+- npm i @nestjs/jwt
 
 ## Configurando Prisma
 - npx prisma init // iniciar o prisma
