@@ -12,6 +12,8 @@ model User {
   name      String?   @db.VarChar(70)
   email     String?   @db.VarChar(90)
   password  String?   @db.VarChar(50)
+  birthAt   DateTime? @db.Date
+  role      Int       @default(1)
   createdAt DateTime? @default(now()) @db.Timestamp(0)
   updatedAt DateTime? @default(now()) @db.Timestamp(0)
 
