@@ -80,6 +80,7 @@ Nest is [MIT licensed](LICENSE).
 - npm i bcrypt
 - npm i -D @types/bcrypt
 - npm i @nestjs/throttler
+- npm i @nestjs/config
 
 ## Configurando Prisma
 - npx prisma init // iniciar o prisma
