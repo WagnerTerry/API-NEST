@@ -77,6 +77,8 @@ Nest is [MIT licensed](LICENSE).
 - npm i @nestjs/mapped-types
 - npm i -D prisma
 - npm i @nestjs/jwt
+- npm i bcrypt
+- npm i -D @types/bcrypt
 
 ## Configurando Prisma
 - npx prisma init // iniciar o prisma
