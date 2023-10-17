@@ -81,6 +81,7 @@ Nest is [MIT licensed](LICENSE).
 - npm i -D @types/bcrypt
 - npm i @nestjs/throttler
 - npm i @nestjs/config
+- npm install --save-dev @types/multer
 -- envio de email
 - npm i --save @nestjs-modules/mailer nodemailer
 - npm i --save-dev @types/nodemailer
