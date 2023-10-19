@@ -44,7 +44,7 @@ import { UserEntity } from './user/entity/user.entity';
       },
     }),
     TypeOrmModule.forRoot({
-      type: 'mssql',
+      type: 'mysql',
       host: process.env.DB_HOST,
       port: Number(process.env.DB_PORT),
       username: process.env.DB_USERNAME,
